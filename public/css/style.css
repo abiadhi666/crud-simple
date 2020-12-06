@@ -1,0 +1,141 @@
+@font-face {font-family: "SF Pro Display"; src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot"); src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff") format("woff"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display") format("svg"); } 
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.bg-shadow{
+	background-color: rgba(42, 38, 61, 0.82);
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.homepage{
+  max-width: 600px;
+  margin: auto;
+}
+
+.landing-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 48px !important;
+	line-height: .9;
+  color: #fff;
+}
+
+p{
+  font-family: 'SF Pro Display', sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+.button-primary {
+  font-size: 12px !important;
+  width: 156px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  border-color: #FCB371 !important;
+  color: #FCB371 !important;
+}
+
+.button-primary:hover {
+  font-size: 12px !important;
+  width: 156px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  border-color: #FCB371 !important;
+  background-color: #FCB371 !important;
+  color: #fff !important;
+}
+
+.button-secondary {
+  font-size: 12px !important;
+  width: 156px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  background-color: #FCB371 !important;
+  border-color: #FCB371 !important;
+  color: #fff !important;
+}
+
+.button-secondary:hover {
+  font-size: 12px !important;
+  width: 156px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  border-color: #FCB371 !important;
+  color: #FCB371 !important;
+  background-color: transparent !important;
+}
+
+.button-secondary-2 {
+  font-size: 12px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  background-color: #FCB371 !important;
+  border-color: #FCB371 !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+}
+
+.button-secondary-2:hover {
+  font-size: 12px !important;
+  padding: 12px 50px 12px 50px !important;
+  font-family: 'Pacifico', cursive;
+  border-color: #FCB371 !important;
+  color: #FCB371 !important;
+  background-color: transparent !important;
+  border-radius: 8px !important;
+}
+
+.back-button{
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.button-reservation{
+  margin-left: 60px;
+}
+
+/* Form */
+
+.registration-form{
+	margin-top: 67px;
+}
+
+.registration-form form{
+    max-width: 382px;
+    margin: auto;
+}
+
+.registration-form .item{
+    height: 46px;
+    font-family: 'SF Pro Display', sans-serif;
+	  border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    padding: 16px;
+}
+
+.registration-form .item-textarea{
+    font-family: 'SF Pro Display', sans-serif;
+	  border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    padding: 16px;
+}
+
+/* Table */
+.table{
+  color: #fff !important;
+}
